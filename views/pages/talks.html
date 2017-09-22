@@ -1,0 +1,34 @@
+{% extends layout %}
+
+{% block title %}Schedule{% endblock %}
+
+{% block meta_description %}
+{{ conference_year }} Madison PHP Conference Schedule
+{% endblock %}
+
+{% block content %}
+
+{% if schedule_set == 'yes' %}
+    <p><a href="/schedule">View the Full Schedule</a></p>
+{% elseif speakers_set == 'yes' %}
+    <p><a href="/speakers">View the List of Speakers</a></p>
+{% endif %}
+
+<h2>{{ talk.title }}</h2>
+
+<p>{{ talk.talk_description|raw }}</p>
+
+{% for speaker in talk.speaker %}
+    <div style="clear:both;">
+    <img src="/assets/images/speakers/{{ speaker.img }}" class="img-responsive img-thumbnail" style="float: left; margin-right: 10px;" alt="{{ speaker.name }}"><br>
+    <h3>{{ speaker.name }}
+        {% if speaker.twitter %}
+        (<a href="http://www.twitter.com/{{ speaker.twitter }}">@{{ speaker.twitter }}</a>)
+        {% endif %}
+    </h3><br>
+    {{ speaker.bio|raw }}</p>
+    </div>
+{% endfor %}
+
+
+{% endblock %}
