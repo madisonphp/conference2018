@@ -55,7 +55,7 @@ $sponsors = array(
         ),
     ),
     'silver' => array(
-        array(
+        /**array(
             'name' => 'Madison College',
             'href' => 'http://it.madisoncollege.edu',
             'img'  => '/assets/images/sponsors/madisoncollege.jpg',
@@ -68,10 +68,10 @@ $sponsors = array(
             'img'  => '/assets/images/sponsors/webcourseworks.png',
             'thumbnail' => '/assets/images/sponsors/webcourseworks_thumb.png',
             'twitter' => 'WebCourseworks',
-        ),
+        ),**/
     ),
     'bronze' => array(
-        array(
+        /**array(
             'name' => 'Snap Programming',
             'href' => 'http://snapprogramming.com/',
             'img'  => '/assets/images/sponsors/snapprogramming.png',
@@ -105,7 +105,7 @@ $sponsors = array(
             'img'  => '/assets/images/sponsors/siteground.png',
             'thumbnail' => '/assets/images/sponsors/siteground_thumb.png',
             'twitter' => 'SiteGround',
-        ),
+        ),**/
     ),
     'scholarship' => array(
         array(
@@ -117,7 +117,7 @@ $sponsors = array(
         ),
     ),
     'community' => array(
-        array(
+        /**array(
             'name' => 'php[architect]',
             'href' => 'https://www.phparch.com/',
             'img'  => '/assets/images/sponsors/phparch.png',
@@ -130,7 +130,7 @@ $sponsors = array(
             'img'  => '/assets/images/sponsors/MySQL.png',
             'thumbnail' => '/assets/images/sponsors/MySQL_thumb.png',
             'twitter' => 'mysql',
-        ),
+        ),**/
     ),
 );
 
@@ -145,7 +145,7 @@ $app['rooms_set'] = $rooms_set;
 $app['speakers_set'] = $speakers_set;
 
 $talks = array(
-    'T01' => array(
+    /**'T01' => array(
         'speaker' => array (
             array (
                 'name' => 'Rodney Urquhart',
@@ -489,7 +489,7 @@ $talks = array(
         'talk_description' => 'RegEx is scary. At least, if you ask Google, that\'s what you might think (257,000). And slow (441,000). In fact, regular expressions are neither of these, and indeed are a powerful tool in your utility belt. "RegEx Is Your Friend" will provide some real-world usable examples of how RegEx can be used in a way that\'s fast, explaining how the different parts of regular expressions work and execute to make it understandable for all. No matter if you don\'t know your \'$\' from your \'^\', you are not sure when to use RegEx (and when not to), or you just need to find a way to make your RegEx run faster, there will be useful help and tips for everyone.',
         'talk_type' => 'talk',
         'display_speaker' => 'yes',
-    ),
+    ),**/
 );
 
 $app['talks'] = $talks;
