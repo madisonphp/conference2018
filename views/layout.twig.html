@@ -12,7 +12,7 @@
         <meta name="twitter:card" content="summary">
         <meta name="twitter:site" content="@madisonphp">
         <meta name="twitter:title" content="Madison PHP Conference">
-        <meta name="twitter:description" content="Friday, November 9th - Saturday, November 10th, 2018">
+        <meta name="twitter:description" content="Friday, November 2nd - Saturday, November 3rd, 2018">
         <meta name="twitter:image" content="http://2018.madisonphpconference.com/assets/images/madison-php-logo.jpg">
 
         <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
@@ -54,7 +54,7 @@
             </div>
             <div class="container">
                 <h1><img src="/assets/images/conf-logo.png" class="img-responsive" alt="Madison PHP Conference"></h1>
-                <h2 class="white header_date">November 9th - November 10th, 2018</h2>
+                <h2 class="white header_date">November 2nd - November 3rd, 2018</h2>
                 <ul class="list-inline">
                     <li>Share On</li>
                     <li><a target="_blank" href="http://www.facebook.com/sharer/sharer.php?s=100&amp;p[url]=http://2018.madisonphpconference.com/&amp;p[images][0]=http://2018.madisonphpconference.com/mysite/images/madison-php-shareable.jpg&amp;p[title]=+&amp;p[summary]=Madison PHP" class="btn btn-default btn-xs"><span class="fa fa-facebook" aria-hidden="true"></span> facebook</a></li>
@@ -70,7 +70,7 @@
                         <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
                         <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                         <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_8cfc0a2d94f3ce5ec021e3053_c1ebf9f70d" tabindex="-1" value=""></div>
-                        <div class="emailButton clear"><input type="submit" value="Subscribe to Our Mailing List" name="subscribe" id="mc-embedded-subscribe" class="button" style="border: 1px solid #000000;"></div>
+                        <div class="emailButton clear"><input type="submit" value="Subscribe to Our Mailing List" name="subscribe" id="mc-embedded-subscribe" class="button" style="border: 1px solid #000000; background-color: #b70610;"></div>
                     </div>
                 </form>
             </div>
@@ -83,16 +83,24 @@
             <div id="horizontal-sponsors">
                 <h3>Sponsors</h3>
                 {% for sponsor in sponsors.partner %}
-                <a href="{{ sponsor.href }}"><img src="{{ sponsor.thumbnail }}" alt="{{ sponsor.name }}" class="img-responsive sponsor-header-partner"></a>
+                    {% if sponsor.name %}
+                        <a href="{{ sponsor.href }}"><img src="{{ sponsor.thumbnail }}" alt="{{ sponsor.name }}" class="img-responsive sponsor-header-partner"></a>
+                    {% endif %}
                 {% endfor %}
                 {% for sponsor in sponsors.gold %}
-                <a href="{{ sponsor.href }}"><img src="{{ sponsor.thumbnail }}" alt="{{ sponsor.name }}" class="img-responsive sponsor-header-gold"></a>
+                    {% if sponsor.name %}
+                        <a href="{{ sponsor.href }}"><img src="{{ sponsor.thumbnail }}" alt="{{ sponsor.name }}" class="img-responsive sponsor-header-gold"></a>
+                    {% endif %}
                 {% endfor %}
                 {% for sponsor in sponsors.silver %}
-                <a href="{{ sponsor.href }}"><img src="{{ sponsor.thumbnail }}" alt="{{ sponsor.name }}" class="img-responsive sponsor-header-silver"></a>
+                    {% if sponsor.name %}
+                        <a href="{{ sponsor.href }}"><img src="{{ sponsor.thumbnail }}" alt="{{ sponsor.name }}" class="img-responsive sponsor-header-silver"></a>
+                    {% endif %}
                 {% endfor %}
                 {% for sponsor in sponsors.bronze %}
-                <a href="{{ sponsor.href }}"><img src="{{ sponsor.thumbnail }}" alt="{{ sponsor.name }}" class="img-responsive sponsor-header-silver"></a>
+                    {% if sponsor.name %}
+                        <a href="{{ sponsor.href }}"><img src="{{ sponsor.thumbnail }}" alt="{{ sponsor.name }}" class="img-responsive sponsor-header-silver"></a>
+                    {% endif %}
                 {% endfor %}
                 <div style="clear: both;"></div>
             </div>

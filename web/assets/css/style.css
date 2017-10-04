@@ -1,81 +1,67 @@
-/** Navigation Styles **/
-.navbar {
-    background-image: -webkit-linear-gradient(top, #0a0a0a 0%, #1b1d1c 100%);
-    background-image: -o-linear-gradient(top, #0a0a0a 0%, #1b1d1c 100%);
-    background-image: linear-gradient(to bottom, #0a0a0a 0%, #1b1d1c 100%);
-    background-repeat: repeat-x;
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff004400', endColorstr='#ff009900', GradientType=0);
-}
-.navbar .active a{
-    background-image: -webkit-linear-gradient(top, #1b1d1c 0%, #0a0a0a 100%);
-    background-image: -o-linear-gradient(top, #1b1d1c 0%, #0a0a0a 100%);
-    background-image: linear-gradient(to bottom, #1b1d1c 0%, #0a0a0a 100%);
-    background-repeat: repeat-x;
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff004400', endColorstr='#ff009900', GradientType=0);
+body {
+    background: #fff;
 }
 
+a {
+    color: #b70610;
+}
 
-/** Jumbotron Styles **/
-#madisonHeadline.jumbotron{
-    background-color: transparent;
-    margin-top: 50px;
-    position: relative;
-    height: 300px;
-    margin-bottom: 30px;
+a:hover, a:focus {
+    color: #b70610;
+    text-decoration: underline;
 }
-#madisonHeadline.jumbotron h1,h2{
-    margin-top: 0;
-    margin-bottom: 0;
-}
-#madisonHeadline.jumbotron .container{
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    z-index: 10;
-    position: absolute;
-}
-#madisonHeadline.jumbotron #skyline{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: url(../images/madison-skyline.jpg) -150px -400px;
-    opacity: .9;
-}
-#madisonHeadline{
 
-    color: #FFFFFF;
+h1, h2, h3, h4 {
+    font-family: Montserrat;
+    font-weight: bold;
 }
-#mc_embed_signup{
 
-    clear: none;
-    position: absolute;
-    background-color: transparent;
-    top: 200px;
-    margin: 10px auto 0 auto;
-    width: 100%;
-    padding: 0 20px;
-    z-index: 100;
+.nobr {
+    white-space:nowrap;
 }
-#mc_embed_signup input[type=submit] {
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: #b70610;
+    background-color: #000;
+}
+
+.container {
+    max-width: 970px;
+}
+
+.text-center .img-responsive {
+    margin: 0 auto;
+}
+
+.jumbotron
+{
+    background: url(../images/madison-skyline.jpg) 0px -270px;
+    background-size: cover;
+    border-bottom: 5px solid #b70610;
     color: #fff;
-    background-color: #b70610;
-    font:2.4em Futura, ‘Century Gothic’, AppleGothic, sans-serif;
-    font-size:70%;
-    /* ... other rules ... */
-    cursor:pointer;
+    height: 242px;
+    padding: 40px 0px 0px 0px;
+    margin-bottom: 3px;
 }
 
-/** SPonsors Section **/
+h2.header_date {
+    margin: -45px 0px 22px 160px;
+    width: auto;
+    font-size: 1.4em;
+    font-weight: normal;
+    text-align: center;
+    line-height: 1.3;
+}
+
 .sponsor-page-images {
     display: inline-block;
     padding: 30px 20px;
 }
 
 #horizontal-sponsors {
-    margin: -40px 0px 20px 0px;
+    margin: -10px 0px 20px 0px;
     padding: 0px 5px 10px 35px;
     border-bottom: 1px dashed #b70610;
 }
@@ -88,27 +74,62 @@
     display: inline;
 }
 
+footer {
+    margin-bottom: 30px;
+}
 
-/** Text Styles **/
-.white{
 
+/*Schedule*/
+.schedule-list{background-color:#fff;border-bottom:dotted 1px #b70610; clear: both;}
+.schedule-list.odd{background-color:#ddd;}
+.schedule-list .day{width: 80px;float: left;display: inline;margin-right: 0px;}
+.schedule-list .day div, .schedule-list .time div, .schedule-list .details div{padding:15px; font-size: 1em;}
+.schedule-list .time{width: 220px;float: left;display: inline;margin-left: 20px;margin-right: 0px;}
+.schedule-list .details{width: 600px;float: left;display: inline;margin-left: 20px;margin-right: 0px;}
+#schedule .terms{font-size:11px;margin-top:10px;}
+.schedule-list .clear{clear:both;}
+.schedule-list h6 {font-size: 1.2em;}
+
+.schedule-list .time .time-row, .schedule-list .details .details-row {min-height: 84px;}
+
+
+table.schedule {
+    text-align: center;
+}
+
+table.schedule td {
+    width: 20%;
+    padding: 10px 5px;
+}
+
+table.schedule td.room1 {
+    background: #caf9cc;
+    color: #00000;
+}
+table.schedule td.room2 {
+    background: #dcc5fe;
+    color: #00000;
+}
+table.schedule td.room3 {
+    background: #fefbc4;
+    color: #00000;
+}
+table.schedule td.room4 {
+    background: #99ccfc;
+    color: #00000;
+}
+table.schedule td.room5 {
+    background: #812e80;
+    color: #FFFFFF;
+}
+table.schedule td.room6 {
+    background: #b82f26;
     color: #FFFFFF;
 }
 
-
-color:#08233e;
-font:2.4em Futura, ‘Century Gothic’, AppleGothic, sans-serif;
-font-size:70%;
-/* ... other rules ... */
-cursor:pointer;
-
-
-
-/** Main Content **/
-.container {
-    max-width: 970px;
+table.schedule td a {
+    font-weight: bolder;
 }
-
 
 .btn-red {
     background: #b70610;
@@ -124,4 +145,8 @@ cursor:pointer;
     margin: 20px;
     padding: 5px;
     border: 2px solid #b70610;
+}
+
+.#mc_embed_signup .button {
+    background-color: #b70610;
 }
