@@ -187,7 +187,7 @@ $sessions = array(
                 'title' => 'More Secure API Requests with WordPress Helper Functions',
                 'tagline' => '',
                 'talk_description' => 'Making API requests with JavaScript is something web developers do everyday. API services often require you to keep API keys out of the browser or route your requests through a server to secure the request. These requirements are meant to keep the API secure and not overloaded with hijacked requests. We will look at a workflow in WordPress that will route a request through the server and return the information to the browser without a page refresh. This workflow is particularly useful if you want or need to keep your API keys secret or out of the browser client, and make requests from a server and not the browser.',
-                'talk_type' => 'short',
+                'talk_type' => 'Short Talk',
                 'display_speaker' => 'yes',
             ),
         ),
