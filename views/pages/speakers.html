@@ -24,13 +24,20 @@
                     <h3>{{ speaker.name }}
                         {% if speaker.twitter %}
                         (<a href="http://www.twitter.com/{{ speaker.twitter }}">@{{ speaker.twitter }}</a>)
-                        {% endif %} (<a href="/talks/{{key}}">View Talks</a>)</h3>
-                    {{ speaker.bio|raw }}</p>
+                        {% endif %}</h3>
+                    <p>{{ speaker.bio|raw }}</p>
 
                 </div>
-                <div style="clear:both; height: 15px; border-bottom: 1px solid #000000;"></div>
             {% endif %}
         {% endfor %}
+
+        {% for talk in talkSlot.talks %}
+            <h4><a href="/talks/{{ key }}">{{ talk.talk_type }}: {{ talk.title }}</a></h4>
+        {% endfor %}
+
+        <div style="clear:both; height: 15px; border-bottom: 1px solid #000000;"></div>
+
+
     {% endif %}
 {% endfor %}
 <hr>
