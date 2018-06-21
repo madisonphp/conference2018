@@ -260,7 +260,7 @@ $sessions = array(
         'speaker' => array (
             array (
                 'name' => 'Corey Halpin',
-                'img' => 'madison-php-logo.jpg',
+                'img' => 'Corey_Halpin.jpg',
                 'bio' => 'Corey Halpin is a software engineer at the [Internet Scout Research Group](https://scout.wisc.edu) in the Department of Computer Sciences at UW-Madison. Scout works at the intersection of Computer Science and Library and Information Science, creating digital resource collections and software to support them. Our flagship application is the [Collection Workflow Integration System (CWIS)](https://scout.wisc.edu/cwis), an open source (GPL), turn-key package for creating and managing digital libraries. Prior to joining Scout, Corey earned a PhD in Forestry from UW-Madison by using simulation models (written primarily in C++, Perl, Lua, and GNU R) to understand the patterns of biomass development in the forests of northern Wisconsin.',
                 'twitter' => '',
             ),
