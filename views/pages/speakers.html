@@ -14,16 +14,9 @@
 {% endif %}
 
 <hr>
-{% for key, talkSlot in talks %}
+{% for key, talkSlot in sessions %}
 
     {% if talkSlot.display_speaker == "yes" %}
-        {% if talkSlot.talk_type == "keynote" %}
-        <h2>Keynote Speaker</h2>
-        {% elseif talkSlot.talk_type == "tutorial" %}
-        <h2>Tutorial Speaker</h2>
-        {% else %}
-        <h2>Speaker</h2>
-        {% endif %}
         {% for speaker in talkSlot.speaker %}
             {% if speaker.name %}
                 <div>
@@ -31,7 +24,7 @@
                     <h3>{{ speaker.name }}
                         {% if speaker.twitter %}
                         (<a href="http://www.twitter.com/{{ speaker.twitter }}">@{{ speaker.twitter }}</a>)
-                        {% endif %} (<a href="/talks/{{key}}">View Talk</a>)</h3>
+                        {% endif %} (<a href="/talks/{{key}}">View Talks</a>)</h3>
                     {{ speaker.bio|raw }}</p>
 
                 </div>

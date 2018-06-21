@@ -1,4 +1,4 @@
-{% extends layout %}
+    {% extends layout %}
 
 {% block title %}Schedule{% endblock %}
 
@@ -14,11 +14,13 @@
     <p><a href="/speakers">View the List of Speakers</a></p>
 {% endif %}
 
-<h2>{{ talk.title }}</h2>
+{% for talk in session.talks %}
+    <h2>{{talk.talk_type}}: {{ talk.title }}</h2>
 
-<p>{{ talk.talk_description|raw }}</p>
+    <p>{{ talk.talk_description|raw }}</p><hr>
+{% endfor %}
 
-{% for speaker in talk.speaker %}
+{% for speaker in session.speaker %}
     <div style="clear:both;">
     <img src="/assets/images/speakers/{{ speaker.img }}" class="img-responsive img-thumbnail" style="float: left; margin-right: 10px;" alt="{{ speaker.name }}"><br>
     <h3>{{ speaker.name }}
