@@ -79,6 +79,13 @@ $sponsors = array(
             'twitter' => 'WeAreEarthling',
         ),
         array(
+            'name' => 'OSMI',
+            'href' => 'https://osmihelp.org',
+            'img'  => '/assets/images/sponsors/osmi.png',
+            'thumbnail' => '/assets/images/sponsors/osmi_thumb.png',
+            'twitter' => 'osmihelp',
+        ),
+        array(
             'name' => 'SiteGround',
             'href' => 'http://www.siteground.com',
             'img'  => '/assets/images/sponsors/siteground.png',
