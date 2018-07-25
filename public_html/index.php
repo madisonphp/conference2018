@@ -56,13 +56,6 @@ $sponsors = array(
     ),
     'silver' => array(
         array(
-            'name' => 'Earthling Interactive',
-            'href' => 'https://earthlinginteractive.com/',
-            'img'  => '/assets/images/sponsors/earthling.png',
-            'thumbnail' => '/assets/images/sponsors/earthling_thumb.png',
-            'twitter' => 'WeAreEarthling',
-        ),
-        array(
             'name' => 'Madison College',
             'href' => 'http://it.madisoncollege.edu',
             'img'  => '/assets/images/sponsors/madisoncollege.jpg',
@@ -78,6 +71,13 @@ $sponsors = array(
         ),
     ),
     'bronze' => array(
+        array(
+            'name' => 'Earthling Interactive',
+            'href' => 'https://earthlinginteractive.com/',
+            'img'  => '/assets/images/sponsors/earthling.png',
+            'thumbnail' => '/assets/images/sponsors/earthling_thumb.png',
+            'twitter' => 'WeAreEarthling',
+        ),
         array(
             'name' => 'SiteGround',
             'href' => 'http://www.siteground.com',
