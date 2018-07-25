@@ -72,18 +72,18 @@ $sponsors = array(
     ),
     'bronze' => array(
         array(
-            'name' => 'Earthling Interactive',
-            'href' => 'https://earthlinginteractive.com/',
-            'img'  => '/assets/images/sponsors/earthling.png',
-            'thumbnail' => '/assets/images/sponsors/earthling_thumb.png',
-            'twitter' => 'WeAreEarthling',
-        ),
-        array(
             'name' => 'OSMI',
             'href' => 'https://osmihelp.org',
             'img'  => '/assets/images/sponsors/osmi.png',
             'thumbnail' => '/assets/images/sponsors/osmi_thumb.png',
             'twitter' => 'osmihelp',
+        ),
+        array(
+            'name' => 'Earthling Interactive',
+            'href' => 'https://earthlinginteractive.com/',
+            'img'  => '/assets/images/sponsors/earthling.png',
+            'thumbnail' => '/assets/images/sponsors/earthling_thumb.png',
+            'twitter' => 'WeAreEarthling',
         ),
         array(
             'name' => 'SiteGround',
