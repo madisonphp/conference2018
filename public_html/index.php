@@ -28,7 +28,7 @@ $published_menu = array(
     'Venue/Hotel' => '/venue/',
     'Sponsors' => '/sponsors/',
     'What to Expect' => '/expect/',
-    'Call for Papers' => 'https://cfp.madisonphpconference.com',
+//    'Call for Papers' => 'https://cfp.madisonphpconference.com',
     'Code of Conduct' => '/conduct/',
     'Contact' => 'https://contact.madisonphpconference.com'
 );
