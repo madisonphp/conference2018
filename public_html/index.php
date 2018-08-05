@@ -63,6 +63,13 @@ $sponsors = array(
             'twitter' => 'MadisonIT',
         ),
         array(
+            'name' => 'Ring Central',
+            'href' => 'http://developers.ringcentral.com/',
+            'img'  => '/assets/images/sponsors/ringcentral.png',
+            'thumbnail' => '/assets/images/sponsors/ringcentral_thumb.png',
+            'twitter' => 'ringcentraldevs',
+        ),
+        array(
             'name' => 'Snap Programming',
             'href' => 'http://snapprogramming.com/',
             'img'  => '/assets/images/sponsors/snapprogramming.png',
