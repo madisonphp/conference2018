@@ -122,8 +122,8 @@ $sponsors = array(
 
 $app['sponsors'] = $sponsors;
 
-$schedule_set = 'no';
-$rooms_set= 'no';
+$schedule_set = 'yes';
+$rooms_set= 'yes';
 $speakers_set= 'yes';
 
 $app['schedule_set'] = $schedule_set;
@@ -141,7 +141,7 @@ $sessions = array(
             ),
         ),
         'talks' => array(
-            array (
+            1 => array (
                 'title' => 'Binary for IoT',
                 'tagline' => '',
                 'talk_description' => 'We\'ve come full circle: A generation ago people were expected to manipulate binary numbers. Those forgotten skills are coming back into demand. The Raspberry Pi, IoT microcontrollers, network code, pure-PHP libraries, all deal with binary-based interfaces or hardware pins. This tutorial focuses on learning the software skills you need for working close to the hardware. We\'ll "learn binary" and practice this knowledge with two pure PHP projects. We\'ll first learn and use AND, OR, XOR to build a binary adder implementing Boolean logic gates in PHP. Next we learn shifting, masking, one\'s complement, two\'s complement for our second PHP project: Implement your own algorithm converting decimal to hexadecimal without sprintf(). This hands-on tutorial focuses on gaining a strong working knowledge of the skills you need for working close to modern IoT hardware. Zero prior "binary" knowledge is expected.',
@@ -160,7 +160,7 @@ $sessions = array(
             ),
         ),
         'talks' => array(
-            array (
+            1 => array (
                 'title' => 'Native Mobile Apps with Tabris.js',
                 'tagline' => '',
                 'talk_description' => 'Tabris.js is a mobile framework that lets you develop native iOS and Android apps from a single code base written entirely in JavaScript. Tabris.js is fully native (no WebViews! and allows you to use existing JavaScript libraries, node modules and Cordova plugins to build your apps. The developer app lets you reload your code at the push of a button for a fast develop/test cycle. Tabris.js also has an online build service eliminating the need to set up SDKs to generate packages for mobile devices.',
@@ -179,7 +179,7 @@ $sessions = array(
             ),
         ),
         'talks' => array(
-            array (
+            1 => array (
                 'title' => 'Tmux and VIM as an IDE',
                 'tagline' => '',
                 'talk_description' => 'This is not a talk about VIM VS. EMACS! This is how to use a CLI in a dev/production environment that emphasizes staying on the keyboard. I will show you how to install plugins for VIM that will allow for easy directory navigation, code syntax, and code completion. TMUX will be utilized as a persistent connection and efficient way to re-connect to what you were last just doing.',
@@ -198,13 +198,13 @@ $sessions = array(
             ),
         ),
         'talks' => array(
-            array (
+            1 => array (
                 'title' => 'Getting Started with WP-CLI',
                 'tagline' => '',
                 'talk_description' => 'Do you work with or maintain WordPress sites and wonder if there\'s an easier way to keep things updated? Are you looking for a way to automate a site setup, turning a five minute install into a 5 second install? (Well, at least less than 5 minutes). Are you bogged down by repetitive tasks that you think, "Ugh, OMG!!!, I wish there was a script I could run that would take care of this for me.” Let\'s dig into WP-CLI (the WordPress Command Line Interface) together and see how it can help us get a little more "fun" out of functions, some extra "dates" out of updates (ok, maybe not that... but maybe !not that, if you know what I mean), a little more "me" time from themes and plugins.',
                 'talk_type' => 'Talk',
             ),
-            array (
+            2 => array (
                 'title' => 'More Secure API Requests with WordPress Helper Functions',
                 'tagline' => '',
                 'talk_description' => 'Making API requests with JavaScript is something web developers do everyday. API services often require you to keep API keys out of the browser or route your requests through a server to secure the request. These requirements are meant to keep the API secure and not overloaded with hijacked requests. We will look at a workflow in WordPress that will route a request through the server and return the information to the browser without a page refresh. This workflow is particularly useful if you want or need to keep your API keys secret or out of the browser client, and make requests from a server and not the browser.',
@@ -224,7 +224,7 @@ $sessions = array(
             ),
         ),
         'talks' => array(
-            array (
+            1 => array (
                 'title' => 'Building a cloud-friendly application',
                 'tagline' => '',
                 'talk_description' => 'The days of hand-crafted artisanal servers are long over. Modern web applications need to be able to run on many different servers without code changes. Not just different hosting providers, but different environments on the same hosting provider. Whether you\'re using a legacy dev/stage/prod setup or a modern branch-is-environment host, modern hosting imposes some requirements on your application design but also offers a huge potential for new and powerful tools. In this session, we\'ll explore some key guidelines for building a cloud-friendly application, as well as look at some architectural options that a modern hosting platform enables.',
@@ -243,7 +243,7 @@ $sessions = array(
             ),
         ),
         'talks' => array(
-            array (
+            1 => array (
                 'title' => 'UX Design for the Internet of Things',
                 'tagline' => '',
                 'talk_description' => 'There has been a tremendous upswing in the use of IoT (Internet of Things) and web-based user interfaces. Data is the new oil, and everyone wants to collect more data on their operations. It\'s all fun and games while the sensors are installed and the data starts flowing in, but working with touchscreens for manual input and displaying the data in real-time can be quite painful if the UI/UX design isn\'t suitable for its application. Learn how to design your interface to handle everyday challenges while being flexible enough to adapt to constantly changing scenarios in the industry. These principles and guidelines will help you create an effective design as well as improve the overall user experience. This talk won\'t just be theoretical but will go through some practical considerations and ways to handle them, using real-world examples.',
@@ -262,13 +262,13 @@ $sessions = array(
             ),
         ),
         'talks' => array(
-            array (
-                'title' => 'Extending and Writing with Guttenberg',
+            1 => array (
+                'title' => 'Extending and Writing with Gutenberg',
                 'tagline' => '',
-                'talk_description' => 'Guttenberg is wordpress\'s newest method for creating pages. Come and hear about how it will change how you create content, and how you as a programmer can make it easier for editors to create pages.',
+                'talk_description' => 'Gutenberg is wordpress\'s newest method for creating pages. Come and hear about how it will change how you create content, and how you as a programmer can make it easier for editors to create pages.',
                 'talk_type' => 'Talk',
             ),
-            array (
+            2 => array (
                 'title' => 'Plugins. What are they good for?',
                 'tagline' => '',
                 'talk_description' => 'In this talk, I will endeavor to answer what do WordPress plugins do and why you would want to use one. I will also be looking at how you would go about creating your own.',
@@ -287,7 +287,7 @@ $sessions = array(
             ),
         ),
         'talks' => array(
-            array (
+            1 => array (
                 'title' => 'Doing more with SSH',
                 'tagline' => '',
                 'talk_description' => 'SSH is an incredible Swiss-army chainsaw of secure networking. This talk presents a brief overview of how the SSH protocol works, including recommendations on how to configure SSH clients and servers for higher security. This incorporates a brief tutorial on how to create and use ssh keys for authentication, including the use of ssh-agent and agent forwarding so that password-protected keys can be used relatively painlessly. An overview of SSH\'s network tunneling features will be presented, including the use of static and dynamic port forwarding, jump hosts using a ProxyCommand, and light-weight VPNs with the ssh Tunnel feature. Discussion will also cover tools that can extend SSH\'s power like <a href="https://mosh.org/">mosh</a> (for interactive terminals on high-latency networks), <a href="https://github.com/sshuttle/sshuttle">sshuttle</a> (a VPN when Tunnel won\'t work), and <a href="https://github.com/moul/advanced-ssh-config">advanced-ssh-config</a> (for simplifying the generation of complex .ssh/config files).',
@@ -306,7 +306,7 @@ $sessions = array(
             ),
         ),
         'talks' => array(
-            array (
+            1 => array (
                 'title' => 'WordPress Security Auditing, Applied',
                 'tagline' => '',
                 'talk_description' => 'I love WordPress. But WordPress sites are regularly compromised by bad code (and a lack of updates), that\'s the ugly truth of the situation. In this workshop we\'ll work to make sure that our code is never the reason that such a thing could happen. We\'ll start with a discussion of the security essentials for WordPress, and then in WP and PHP code. Then we\'ll dive into code, auditing and fixing a plugin with real and common security vulnerabilities. At the end, we\'ll gather back together and talk about what we found and what we missed.',
@@ -325,7 +325,7 @@ $sessions = array(
             ),
         ),
         'talks' => array(
-            array (
+            1 => array (
                 'title' => 'Beyond FizzBuzz: Master Job Interview Coding Challenges',
                 'tagline' => '',
                 'talk_description' => 'Picture this: you\'re acing a job interview, and you feel great. Then out comes the dreaded whiteboard, and you\'re faced with some off-the-wall task with no bearing to reality or sanity. Find us some palindromes! Tell us how many sewer covers there are in the city of San Francisco! Print "FizzBuzz" some of the time! Don\'t lose your cool. Most of these coding challenges fall into a few categories that you can master. Many become very easy once you realize the trick to it. In this talk, you\'ll learn about some popular challenges and how to knock them out of the park. You\'ll explore alternative methods, and find out how to impress your interviewer with your understanding of data structures and algorithms. Learn how to use unit tests to sharpen your skills. Practice the principles you learn in this talk, and you\'ll be able fly through standard job coding challenges with ease.',
@@ -344,11 +344,17 @@ $sessions = array(
             ),
         ),
         'talks' => array(
-            array (
+            1 => array (
                 'title' => 'Communication Boot Camp for Developers',
                 'tagline' => '',
                 'talk_description' => 'Addressing conflict is one of the most difficult hurdles to overcome within the workplace. You may think, “How can I resolve this without coming off as the bad guy?” “What if the conflict is with someone at a higher level with me?” “What if the repercussions land on me?” Do you ever feel intimidated talking to that coworker? Wonder what to say at the office social? You will learn communication skills to address each of these common issues and more during this tutorial. You will have the opportunity to practice your new skills with a new friend in an encouraging environment-and you can take these skills into your personal relationships as well.',
                 'talk_type' => 'Workshop',
+            ),
+            2 => array (
+                'title' => 'Calming Your Inner Critic',
+                'tagline' => '',
+                'talk_description' => 'Our brains complain and let us know everything that is wrong with us and the world, but what can we do about it? With personal and professional stories (and humor), I will share ideas to help you quiet down that negative voice in your head.',
+                'talk_type' => 'Short Talk',
             ),
         ),
         'display_speaker' => 'yes',
@@ -363,7 +369,7 @@ $sessions = array(
             ),
         ),
         'talks' => array(
-            array (
+            1 => array (
                 'title' => 'Object-oriented Programming in Practice',
                 'tagline' => '',
                 'talk_description' => 'It\'s easy to explain the syntax of Classes and Objects in PHP. It\'s another thing to have it all "click" and write code which is more than procedural functions written inside of a class. In this talk, we\'ll look at practical examples of using interfaces, abstract classes, and objects to write code which is conPcise, flexible, testable, and easy to maintain. If you\'re still writing procedural PHP, you\'ll come away with a better understanding of how to make the leap to thinking in an object oriented way.',
@@ -382,7 +388,7 @@ $sessions = array(
             ),
         ),
         'talks' => array(
-            array (
+            1 => array (
                 'title' => 'Web Access Jeopardy',
                 'tagline' => '',
                 'talk_description' => 'Ready, Set, Go! -- In this interactive session, teams of contestants will select questions from different categories about web access and accumulate points based on their response. Gain awareness and test your knowledge of concepts to help your web applications be more accessible and usable to a diverse audience.',
@@ -401,7 +407,7 @@ $sessions = array(
             ),
         ),
         'talks' => array(
-            array (
+            1 => array (
                 'title' => 'Using our powers for good: Tech and social impact',
                 'tagline' => '',
                 'talk_description' => 'Want to make an impact in your community, but don\'t know how, or feel like you don\'t have time? You\'re not alone. Luckily, there are a number of ways you can use your tech-industry skills to create positive change in your community - and yourself! (Fun fact: volunteers live longer and make more money than those who don\'t volunteer.) In this talk, we\'ll look at the why\'s, the how\'s, and the where\'s for sharing our skills. You\'ll learn more about the breadth of ways to give back - both technical and non-technical - and hopefully leave feeling empowered to reach out in your own community and start making connections.',
@@ -420,7 +426,7 @@ $sessions = array(
             ),
         ),
         'talks' => array(
-            array (
+            1 => array (
                 'title' => 'MySQL 8 -- A New Beginning',
                 'tagline' => '',
                 'talk_description' => 'MySQL 5.7 was the next received version of the most popular database on the web. But now MySQL is available with many new features plus improved performance. First there is a true data dictionary to store meta data instead of a series of files that tie up inodes; the good news is that you can now have millions of tables in a schema and the bad news is that you can not have millions of tables in a schema. Common Table Expressions and Windowing Functions to make it easier to write sub-queries and to perform analytics on your data. The new scheduler handles higher data contention levels, you get rue descending indexes, UTF8MB4 support (and it is the default character set), roles, and better JSON support.',
@@ -439,7 +445,7 @@ $sessions = array(
             ),
         ),
         'talks' => array(
-            array (
+            1 => array (
                 'title' => 'Call... Text... Video Me Maybe?',
                 'tagline' => '',
                 'talk_description' => 'Have you ever wondered how you could add voice, telephone, SMS, MMS, messaging, video, meeting, or fax (yes - I said fax) capabilities to your web app? Learn how easy it is to build in all of these with HTTP based APIs and take your application beyond the browser. For this session we\'ll focus on using the RingCentral APIs (although you can easily use any other vendor as the process is nearly the same).',
@@ -458,7 +464,7 @@ $sessions = array(
             ),
         ),
         'talks' => array(
-            array (
+            1 => array (
                 'title' => 'Localizing websites',
                 'tagline' => '',
                 'talk_description' => 'Should I translate my website? How do I do that? How do translators work? How do I work with translators? How do I make sure that the translations are correct? These questions and more will be the focus of this presentation. We\'ll look at CMSs in general and WordPress in particular. We\'ll look at PHP\'s gettext utilities and when (NOT) to use them.',
@@ -477,7 +483,7 @@ $sessions = array(
             ),
         ),
         'talks' => array(
-            array (
+            1 => array (
                 'title' => 'How We Got Here, A Brief History of Open Source',
                 'tagline' => '',
                 'talk_description' => 'We all have a journey, a journey that shapes who and what we are. Ideals, hopes, dreams, and a constant stream of decisions helps make us who we are. The same is true of the idea of Open Source. The journey and story of Open Source has shaped the software landscape in the present and will continue to shape the direction of software into the future. As developers we should know this tale, this history, the important chapters that helped found the ideals of Open Source, and understand why PHP is one of the last truly Open Source projects still around.',
@@ -496,7 +502,7 @@ $sessions = array(
             ),
         ),
         'talks' => array(
-            array (
+            1 => array (
                 'title' => 'Simplify Your Workflow With Docker',
                 'tagline' => '',
                 'talk_description' => 'We\'ve all been there. You\'ve tested your application time and time again, and everything is working *perfectly*. Now all you need to do is pull the code down to your deployment server and you\'re good to go, right? **Right?** Except... you\'re not. You deploy your code, and almost immediately you get users complaining that things aren\'t working. Turns out, you forgot to install some vital packages like `imagemagick` and `bcrypt`. Womp womp. There\'s a better way. Docker allows you to transcend these issues by building the same environment every time. This talk will go through the basics of Docker, how to get started, wha\sts a Dockerfile, why not just use a VM, as well as diving into the some of the common issues that Docker can solve for PHP developers.',
@@ -515,7 +521,7 @@ $sessions = array(
             ),
         ),
         'talks' => array(
-            array (
+            1 => array (
                 'title' => 'Machine Learning Algorithms',
                 'tagline' => '',
                 'talk_description' => 'Machine learning and artificial intelligence pop up in moves and TV shows all the time, but have you ever wondered how they actually work in the real world? Do you know what a Neural Network is and why it\'s important? Join me for a high level introduction to the algorithms used in supervised and unsupervised machine learning as well as their concepts, theory, and use case examples.',
@@ -534,7 +540,7 @@ $sessions = array(
             ),
         ),
         'talks' => array(
-            array (
+            1 => array (
                 'title' => 'Git Legit',
                 'tagline' => '',
                 'talk_description' => 'If you\'re fighting with Git on a regular basis, you might not be using it optimally. Many Git users tend to use Git as a save point, like in a video game; chronologically making checkpoint commits as they go. This spreads out changes to the same areas in the code over several commits, necessitates merging and resolving conflicts, and generally just makes an incomprehensible jumble of your history. This talk makes a case for atomic commits and how to use them while only minimally affecting your workflow. Using pre-recorded demos, you\'ll learn how to properly interactively rebase, fix up, reset, bisect, and more. By the end of the talk, you\'ll have seen how this Git flow will make your life easier and how it will affect your ability to cherry pick, drop unwanted commits, and most importantly: not spend hours resolving conflicts in rebase hell. A little change in habits can go a very long way!',
@@ -553,7 +559,7 @@ $sessions = array(
             ),
         ),
         'talks' => array(
-            array (
+            1 => array (
                 'title' => 'Laravel: Building APIs Like a Pro',
                 'tagline' => '',
                 'talk_description' => 'APIs are quickly becoming one of the primary tools developers will work on and build. Whether it\'s an API to power a JavaScript desktop front-end or a mobile app, or to be used by your customers to make the next awesome third party integration, APIs aren\'t just a tool for the big players in development spaces. They are for everyone and anyone. Together we\'ll learn how to build an API in Laravel, from the simple and basic, BREAD interface to some more complex interfaces as well as building an OAuth login and authentication system for your API.',
