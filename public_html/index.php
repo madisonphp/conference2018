@@ -382,7 +382,7 @@ $sessions = array(
         'speaker' => array (
             array (
                 'name' => 'Marsha Schwanke',
-                'img' => 'madison-php-logo.jpg',
+                'img' => 'Marsha_Schwanke.jpg',
                 'bio' => 'Marsha Schwanke develops web projects, online training, and accessible materials for a grant-funded regional center of the Burton Blatt Institute (BBI) at Syracuse University. Her focus is maximizing access and usability based on "best practices" and established guidelines, such as the W3C Web Content Accessibility Guidelines (WCAG). Ms. Schwanke has a Bachelors in Therapeutic Recreation from Ohio University and a Masters in Information Technology from American Intercontinental University. She is a Certified Therapeutic Recreation Specialist (CTRS) and has over 30 years experience as a manager, practitioner, and volunteer working with children and adults with disabilities in hospital, long-term care, and community settings. She has authored and facilitated over 100 presentations and trainings on disability awareness, web access, and assistive technology.',
                 'twitter' => '',
             ),
