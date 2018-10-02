@@ -76,6 +76,20 @@ $sponsors = array(
             'thumbnail' => '/assets/images/sponsors/snapprogramming_thumb.png',
             'twitter' => 'SnapProgramming',
         ),
+        array(
+            'name' => 'Infosec Institute',
+            'href' => 'https://www.infosecinstitute.com/',
+            'img'  => '/assets/images/sponsors/infosec.png',
+            'thumbnail' => '/assets/images/sponsors/infosec_thumb.png',
+            'twitter' => 'InfosecEdu',
+        ),
+        array(
+            'name' => 'php[architect]',
+            'href' => 'https://phparch.com/',
+            'img'  => '/assets/images/sponsors/phparch.png',
+            'thumbnail' => '/assets/images/sponsors/phparch_thumb.png',
+            'twitter' => 'Phparch',
+        ),
     ),
     'bronze' => array(
         array(
