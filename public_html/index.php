@@ -239,7 +239,7 @@ $sessions = array(
         ),
         'talks' => array(
             1 => array (
-                'title' => 'Building a cloud-friendly application',
+                'title' => 'Building a Cloud-friendly Application',
                 'tagline' => '',
                 'talk_description' => 'The days of hand-crafted artisanal servers are long over. Modern web applications need to be able to run on many different servers without code changes. Not just different hosting providers, but different environments on the same hosting provider. Whether you\'re using a legacy dev/stage/prod setup or a modern branch-is-environment host, modern hosting imposes some requirements on your application design but also offers a huge potential for new and powerful tools. In this session, we\'ll explore some key guidelines for building a cloud-friendly application, as well as look at some architectural options that a modern hosting platform enables.',
                 'talk_type' => 'Short Talk',
@@ -283,7 +283,7 @@ $sessions = array(
                 'talk_type' => 'Talk',
             ),
             2 => array (
-                'title' => 'Plugins. What are they good for?',
+                'title' => 'Plugins. What Are They Good For?',
                 'tagline' => '',
                 'talk_description' => 'In this talk, I will endeavor to answer what do WordPress plugins do and why you would want to use one. I will also be looking at how you would go about creating your own.',
                 'talk_type' => 'Workshop',
@@ -365,7 +365,7 @@ $sessions = array(
                 'talk_type' => 'Workshop',
             ),
             2 => array (
-                'title' => 'Calming Your Inner Critic',
+                'title' => 'Conquering Your Inner Critic',
                 'tagline' => '',
                 'talk_description' => 'Our brains complain and let us know everything that is wrong with us and the world, but what can we do about it? With personal and professional stories (and humor), I will share ideas to help you quiet down that negative voice in your head.',
                 'talk_type' => 'Short Talk',
@@ -422,7 +422,7 @@ $sessions = array(
         ),
         'talks' => array(
             1 => array (
-                'title' => 'Using our powers for good: Tech and social impact',
+                'title' => 'Using Our Powers for Good: Tech and Social Impact',
                 'tagline' => '',
                 'talk_description' => 'Want to make an impact in your community, but don\'t know how, or feel like you don\'t have time? You\'re not alone. Luckily, there are a number of ways you can use your tech-industry skills to create positive change in your community - and yourself! (Fun fact: volunteers live longer and make more money than those who don\'t volunteer.) In this talk, we\'ll look at the why\'s, the how\'s, and the where\'s for sharing our skills. You\'ll learn more about the breadth of ways to give back - both technical and non-technical - and hopefully leave feeling empowered to reach out in your own community and start making connections.',
                 'talk_type' => 'Short Talk',
@@ -479,7 +479,7 @@ $sessions = array(
         ),
         'talks' => array(
             1 => array (
-                'title' => 'Localizing websites',
+                'title' => 'Localizing Websites',
                 'tagline' => '',
                 'talk_description' => 'Should I translate my website? How do I do that? How do translators work? How do I work with translators? How do I make sure that the translations are correct? These questions and more will be the focus of this presentation. We\'ll look at CMSs in general and WordPress in particular. We\'ll look at PHP\'s gettext utilities and when (NOT) to use them.',
                 'talk_type' => 'Short Talk',
