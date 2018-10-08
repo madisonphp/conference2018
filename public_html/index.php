@@ -446,6 +446,12 @@ $sessions = array(
                 'talk_description' => 'MySQL 5.7 was the next received version of the most popular database on the web. But now MySQL is available with many new features plus improved performance. First there is a true data dictionary to store meta data instead of a series of files that tie up inodes; the good news is that you can now have millions of tables in a schema and the bad news is that you can not have millions of tables in a schema. Common Table Expressions and Windowing Functions to make it easier to write sub-queries and to perform analytics on your data. The new scheduler handles higher data contention levels, you get rue descending indexes, UTF8MB4 support (and it is the default character set), roles, and better JSON support.',
                 'talk_type' => 'Talk',
             ),
+            2 => array (
+                'title' => 'PHP and The MySQL Document Store',
+                'tagline' => '',
+                'talk_description' => 'Tried of embedding ugly strings of SQL commands in your beautiful PHP code? Or your SQL programming skills not exactly sparkling? The MySQL Document Store allows you to use MySQL as a NoSQL JSON document database using modern programming structure. You get the best of of SQL and NoSQL on one server with the same set of data. This session covers the MySQL XDevAPI PECL extension and how to use the MySQL Document store to access document collections and/or relational tables. This will allow new developers to avoid the steep SQL learning curve and provide much easier to read (and comprehend) code.',
+                'talk_type' => 'Short Talk',
+            ),
         ),
         'display_speaker' => 'yes',
     ),

@@ -194,7 +194,10 @@
             </td>
         </tr>
         <tr><td nowrap>1:30 pm - 1:50 pm</td>
-            <td class="room2">TBD
+            <td class="room2"><a href="/talks/T15">{{ sessions.T15.talks.2.title }}</a><br>
+                {% for speaker in sessions.T15.speaker %}
+                {{ speaker.name }}<br>
+                {% endfor %}
             </td>
             <td class="room3"><a href="/talks/T17">{{ sessions.T17.talks.1.title }}</a><br>
                 {% for speaker in sessions.T17.speaker %}
