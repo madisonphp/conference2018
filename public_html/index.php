@@ -116,20 +116,20 @@ $sponsors = array(
     ),
     'scholarship' => array(
         array(
-            'name' => 'Stefany Newman',
-            'href' => 'https://premiumwordpressloginnotifications.com/',
-            'img'  => '/assets/images/sponsors/stefanynewman.jpg',
-            'thumbnail' => '/assets/images/sponsors/stefanynewman_thumb.jpg',
-            'twitter' => 'stefanynewman4',
-        ),
-    ),
-    'community' => array(
-        array(
             'name' => '',
             'href' => '',
             'img'  => '',
             'thumbnail' => '',
             'twitter' => '',
+        ),
+    ),
+    'community' => array(
+        array(
+            'name' => 'Stefany Newman',
+            'href' => 'https://premiumwordpressloginnotifications.com/',
+            'img'  => '/assets/images/sponsors/stefanynewman.jpg',
+            'thumbnail' => '/assets/images/sponsors/stefanynewman_thumb.jpg',
+            'twitter' => 'stefanynewman4',
         ),
     ),
 );
