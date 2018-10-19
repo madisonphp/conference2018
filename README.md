@@ -9,9 +9,9 @@ Website for the 2018 Madison PHP Conference
 - Install packages and dependencies `composer install`
 - Configuration webserver
   - Apache/nginx:
-    - Set `web/` as your public folder
+    - Set `public_html/` as your public folder
   - PHP built-in web server
-    - php -S localhost:8080 -t web web/index.php
+    - php -S localhost:8080 -t web public_html/index.php
 
 ## Deploy
 
