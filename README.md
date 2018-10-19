@@ -11,7 +11,7 @@ Website for the 2018 Madison PHP Conference
   - Apache/nginx:
     - Set `public_html/` as your public folder
   - PHP built-in web server
-    - php -S localhost:8080 -t web public_html/index.php
+    - php -S localhost:8080 -t public_html public_html/index.php
 
 ## Deploy
 
