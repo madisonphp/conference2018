@@ -90,6 +90,13 @@ $sponsors = array(
             'thumbnail' => '/assets/images/sponsors/phparch_thumb.png',
             'twitter' => 'Phparch',
         ),
+        array(
+            'name' => 'Web Courseworks',
+            'href' => 'http://www.webcourseworks.com',
+            'img'  => '/assets/images/sponsors/webcourseworks.png',
+            'thumbnail' => '/assets/images/sponsors/webcourseworks_thumb.png',
+            'twitter' => 'WebCourseworks',
+        ),
     ),
     'bronze' => array(
         array(
@@ -279,7 +286,7 @@ $sessions = array(
             1 => array (
                 'title' => 'Extending and Writing with Gutenberg',
                 'tagline' => '',
-                'talk_description' => 'Gutenberg is wordpress\'s newest method for creating pages. Come and hear about how it will change how you create content, and how you as a programmer can make it easier for editors to create pages.',
+                'talk_description' => 'Gutenberg is WordPress\'s newest method for creating pages. Come and hear about how it will change how you create content, and how you as a programmer can make it easier for editors to create pages.',
                 'talk_type' => 'Talk',
             ),
             2 => array (
@@ -368,7 +375,7 @@ $sessions = array(
                 'title' => 'Conquering Your Inner Critic',
                 'tagline' => '',
                 'talk_description' => 'Our brains complain and let us know everything that is wrong with us and the world, but what can we do about it? With personal and professional stories (and humor), I will share ideas to help you quiet down that negative voice in your head.',
-                'talk_type' => 'Short Talk',
+                'talk_type' => 'Keynote',
             ),
         ),
         'display_speaker' => 'yes',
